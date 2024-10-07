@@ -1,0 +1,33 @@
+.bottom-tab-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #272B2E; /* Or any color you prefer */
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    
+    
+}
+
+.nav-button{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    background-color: #272B2E;
+    color: #858585;
+    font-size: small;
+}
+.nav-button.selected{
+    
+    border-radius: 15px;
+    background-color: #171717;
+    color: gold;
+    text-shadow: 0 0px 1px gold;
+}

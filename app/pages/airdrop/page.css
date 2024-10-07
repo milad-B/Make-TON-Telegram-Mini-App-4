@@ -1,0 +1,140 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+}
+.select-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+.tab-selector{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    
+    height: 50px;
+    width: 90%;
+    background-color: #272B2E;
+    border-radius: 12px;
+    box-shadow:0px 0px 4px #272B2E;
+}
+.tab-selector-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 48%;
+    margin: 0;
+    background-color: #272B2E;
+    border-radius: 12px;
+
+}
+.tab-selector-button.selected{
+
+    background-color: #171717;
+
+
+}
+.tokens-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20px;
+}
+.token-table{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    
+    width: 90%;
+    background-color: #272B2E;
+    border-radius:20px;
+    box-shadow:0px 0px 4px #272B2E;
+}
+.token-table p{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.token-table h1{
+    text-align: right;
+    font-size: x-large;
+}
+.token-table h6{
+    text-align: left;
+    font-size: small;
+}
+
+
+.table-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top:20px;
+    width: 90%;
+    background-color: #272B2E;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px #272B2E;
+}
+.table-list-detail{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:center;
+    padding: 1px;
+    padding-left: 8px;
+    width: 85%;
+    height: 100%;
+    text-align: left;
+    font-size: small;
+    
+    
+}
+.table-list-detail h1{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2px;
+    
+    
+}
+
+.withdraw-button{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+    margin-top:0px;
+    width: 90%;
+    background-color: #272B2E;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px #272B2E;
+}
