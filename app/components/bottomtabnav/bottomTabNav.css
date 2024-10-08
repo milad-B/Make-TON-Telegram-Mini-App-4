@@ -16,13 +16,14 @@
 .nav-button{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 70px;
     justify-content: center;
     align-items: center;
     height: 90%;
     background-color: #272B2E;
     color: #858585;
     font-size: small;
+    padding: 5px;
 }
 .nav-button.selected{
     

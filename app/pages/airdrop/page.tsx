@@ -15,6 +15,9 @@ export default function AirDrop() {
   const [selectedTab, setSelectedTab] = useState<string>('Tokens');
     return (
       <main className="main">
+
+    
+      <div className='select-tab'>
       <Image
         src={airDropImg}
         alt="Description of the image"
@@ -22,8 +25,6 @@ export default function AirDrop() {
         height={400}
         style={{ objectFit: 'cover' }}
       />
-    
-      <div className='select-tab'>
         <div className='tab-selector'>
         <div className={`tab-selector-button ${selectedTab === 'Tokens' ? 'selected' : ''}`}
           onClick={()=>setSelectedTab('Tokens')}
